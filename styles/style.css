@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(../images/snails.jpg);
+  background-image: url(../images/walter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -25,8 +25,8 @@ body {
 #mod_box {
   position: absolute;
   background-color: white;
-  width: 30%;
-  margin: 100px 0 0 35%;
+  width: 40%;
+  margin: 200px 0 0 32%;
   padding: 20px;
   z-index: 1500;
   display: none;
@@ -47,17 +47,41 @@ body {
 
 #container {
   position: relative;
-  background: rgba(255,255,255,.8);
-  height: 600px;
-  width: 20%;
+  background: rgba(255,255,255,.4);
+  height: 900px;
+  width: 13%;
   padding: 20px;
   overflow: auto;
   text-align: left;
 }
+
 a {
+  font-family: 'Stalemate', cursive;
+  font-size: 45px;
+  width: 220px;
   text-decoration: none;
   background-color: black;
   color: white;
+  padding: 30px 0 30px 0;
+  margin-left: -30px;
+  display: block;
+  text-align: center;
+  margin-top: -30px;
 }
 
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 22px;
+/*  padding-right: 15px;
+*/  display: block;
+  width: 500px;
+
+}
+
+.rotate_type {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+
+}
 
